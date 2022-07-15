@@ -13,7 +13,6 @@ import {
   LinkList,
   LinkTitle,
   Slogan,
-  SocialContainer,
   SocialIconsContainer,
 } from "./FooterStyles";
 

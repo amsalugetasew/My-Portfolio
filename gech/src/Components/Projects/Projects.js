@@ -1,9 +1,6 @@
 import React from "react";
 import {
   AiFillGithub,
-  AiFillInstagram,
-  AiFillLinkedin,
-  AiFillTwitterCircle,
 } from "react-icons/ai";
 import {
   BlogCard,
@@ -12,8 +9,6 @@ import {
   GridContainer,
   HeaderThree,
   Hr,
-  Tag,
-  TagList,
   TitleContent,
   UtilityList,
   Img,

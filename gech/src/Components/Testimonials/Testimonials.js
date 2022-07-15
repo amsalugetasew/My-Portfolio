@@ -1,8 +1,6 @@
 import React from "react";
 import {
   Section,
-  SectionDivider,
-  SectionText,
   SectionTitle,
 } from "../../styles/GlobalComponents";
 import {

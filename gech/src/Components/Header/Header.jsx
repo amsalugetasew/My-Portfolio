@@ -4,7 +4,6 @@ import {HashLink as Link} from 'react-router-hash-link'
 import React from "react";
 import {
   AiFillGithub,
-  AiFillInstagram,
   AiFillLinkedin,
   AiFillTwitterCircle,
 } from "react-icons/ai";
