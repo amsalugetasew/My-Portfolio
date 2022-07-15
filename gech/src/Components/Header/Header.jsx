@@ -22,18 +22,12 @@ import {
 const Header = () => (
   <Container id='home'>
     <Div1>
-      <Link style={{textDecoration: "none"}} to="/">
-        <a
-          style={{
-            display: "flex",
+      <Link style={{textDecoration: "none",display: "flex",
             color: "#f5f5f5",
             opacity:"0.8",
             marginLeft: "20px",
-            marginTop: "18px"
-          }}
-        >
+            marginTop: "18px"}} to="/" >
           <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
-        </a>
       </Link>
     </Div1>
     <Div2>

@@ -22,7 +22,9 @@ import { TimeLineData } from "../../constants/constants";
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
 
 const Timeline = () => {
-  const [activeItem, setActiveItem] = useState(0);
+  const [activeItem
+    // , setActiveItem
+  ] = useState(0);
   const carouselRef = useRef();
 
   const scroll = (node, left) => {
