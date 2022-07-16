@@ -25,7 +25,7 @@ import "../Mystyle.scss"
 const Projects = () => (
   <Section nopadding id="projects">
     <SectionDivider />
-    <SectionTitle main><Link style={{textDecoration: "none"}} to="#home" smooth>Projects</Link></SectionTitle>
+    <SectionTitle className="p" main><Link style={{textDecoration: "none"}} to="#home" smooth>Projects</Link></SectionTitle>
     <GridContainer className="GridContainer">
       {projects.map(
         ({ id, image, title, description, tags, source, visit }) => (

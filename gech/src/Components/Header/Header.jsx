@@ -8,7 +8,6 @@ import {
   AiFillTwitterCircle,
 } from "react-icons/ai";
 import { DiCssdeck } from "react-icons/di";
-
 import {
   Container,
   Div1,
@@ -19,8 +18,10 @@ import {
   Span,
 } from "./HeaderStyles";
 import "../Mystyle.scss"
+
 const Header = () => (
-  <Container className='container' id='home'>
+     <Container className='container' id='home'>
+    
     <Div1>
       <Link style={{textDecoration: "none",display: "flex",
             color: "#f5f5f5",
@@ -31,6 +32,7 @@ const Header = () => (
       </Link>
     </Div1>
     <Div2 className='Div2'>
+      
       <li>
         <Link style={{textDecoration: "none"}} to="#projects" smooth>
           <NavLink className='NavLink'>Projects</NavLink>
@@ -51,11 +53,17 @@ const Header = () => (
           <NavLink className='NavLink'>About</NavLink>
         </Link>
       </li>
-      <li>
-        <Link style={{textDecoration: "none"}} to="#chart" smooth>
-          <NavLink className='NavLink'>Professional Chart</NavLink>
+      {/* <li>
+        <Link style={{textDecoration: "none"}} to="#inv" smooth>
+          <NavLink className='NavLink'><KeyboardDoubleArrowDownIcon/></NavLink>
         </Link>
-      </li>
+      </li> */}
+      {/* <li>
+        <Link style={{textDecoration: "none"}} to="#chart" smooth>
+          <NavLink className='NavLink' id='chars'>Professional Chart</NavLink>
+        </Link>
+      </li> */}
+      
     </Div2>
     <Div3 className='Div3'>
       <SocialIcons href="https://github.com/amsalugetasew">
@@ -68,7 +76,9 @@ const Header = () => (
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
     </Div3>
+    
   </Container>
+  // </div>
 );
 
 export default Header;

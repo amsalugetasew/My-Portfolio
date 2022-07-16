@@ -18,7 +18,7 @@ import {
 import "../Mystyle.scss"
 const Footer = () => {
   return (
-    <FooterWrapper className="FooterWrapper">
+    <FooterWrapper className="FooterWrapper" id="inv">
       <LinkList>
         <LinkColumn>
           <LinkTitle>Call</LinkTitle>
@@ -33,7 +33,7 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer className="SocialIconsContainer">
         <CompanyContainer>
-          <Slogan>Innovating one project at a time</Slogan>
+          <Slogan >Innovating one project at a time</Slogan>
         </CompanyContainer>
         <SocialIcons className="SocialIcons" href="https://github.com/amsalugetasew">
           <AiFillGithub size="3rem" />

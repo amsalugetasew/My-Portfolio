@@ -17,7 +17,8 @@ const Technologies = () => (
     <Section />
     <SectionTitle><Link style={{textDecoration: "none"}} to="#home" smooth>Testimonials</Link></SectionTitle>
 
-    <List className="Listt">
+    <List>
+      <div id="Listt">
       <ListItem className="ListItemt">
         <ListContainer className="ListContainerT">
           <ListTitle className="ListTitle">Abrham G. CEO Alright Technologies</ListTitle>
@@ -48,6 +49,7 @@ const Technologies = () => (
           </ListParagraph>
         </ListContainer>
       </ListItem>
+      </div>
     </List>
   </Section>
 );
