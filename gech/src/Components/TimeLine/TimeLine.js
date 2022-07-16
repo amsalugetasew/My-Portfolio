@@ -18,7 +18,7 @@ import {
   SectionTitle,
 } from "../../styles/GlobalComponents";
 import { TimeLineData } from "../../constants/constants";
-
+import "../Mystyle.scss"
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
 
 const Timeline = () => {
@@ -57,12 +57,12 @@ const Timeline = () => {
   return (
     <Section id="about">
       <SectionTitle><Link style={{textDecoration: "none"}} to="#home" smooth>About Me</Link></SectionTitle>
-      <SectionText>
+      <SectionText className="SectionText">
         I help designers, small agencies and businesses bring their ideas to
         life. Powered by Figma, VS Code and coffee, I turn your requirements
         into CMS-ified and ecommerce-ified websites - on time and on budget.
       </SectionText>
-      <CarouselContainer ref={carouselRef}>
+      <CarouselContainer className="CarouselContainer" ref={carouselRef}>
         <>
           {TimeLineData.map((item, index) => (
             <CarouselMobileScrollNode

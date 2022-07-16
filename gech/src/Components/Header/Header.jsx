@@ -18,9 +18,9 @@ import {
   SocialIcons,
   Span,
 } from "./HeaderStyles";
-
+import "../Mystyle.scss"
 const Header = () => (
-  <Container id='home'>
+  <Container className='container' id='home'>
     <Div1>
       <Link style={{textDecoration: "none",display: "flex",
             color: "#f5f5f5",
@@ -30,29 +30,34 @@ const Header = () => (
           <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
       </Link>
     </Div1>
-    <Div2>
+    <Div2 className='Div2'>
       <li>
         <Link style={{textDecoration: "none"}} to="#projects" smooth>
-          <NavLink>Projects</NavLink>
+          <NavLink className='NavLink'>Projects</NavLink>
         </Link>
       </li>
       <li>
         <Link to="#tech" style={{textDecoration: "none"}}  smooth>
-          <NavLink>Skills</NavLink>
+          <NavLink className='NavLink'>Skills</NavLink>
         </Link>
       </li>
       <li>
         <Link to="#test" style={{textDecoration: "none"}}  smooth>
-          <NavLink>Testimonials</NavLink>
+          <NavLink className='NavLink'>Testimonials</NavLink>
         </Link>
       </li>
       <li>
         <Link style={{textDecoration: "none"}} to="#about" smooth>
-          <NavLink>About</NavLink>
+          <NavLink className='NavLink'>About</NavLink>
+        </Link>
+      </li>
+      <li>
+        <Link style={{textDecoration: "none"}} to="#chart" smooth>
+          <NavLink className='NavLink'>Professional Chart</NavLink>
         </Link>
       </li>
     </Div2>
-    <Div3>
+    <Div3 className='Div3'>
       <SocialIcons href="https://github.com/amsalugetasew">
         <AiFillGithub size="3rem" />
       </SocialIcons>

@@ -21,11 +21,12 @@ import {
 import { projects } from "../../constants/constants";
 import { motion } from "framer-motion";
 import {HashLink as Link} from 'react-router-hash-link'
+import "../Mystyle.scss"
 const Projects = () => (
   <Section nopadding id="projects">
     <SectionDivider />
     <SectionTitle main><Link style={{textDecoration: "none"}} to="#home" smooth>Projects</Link></SectionTitle>
-    <GridContainer>
+    <GridContainer className="GridContainer">
       {projects.map(
         ({ id, image, title, description, tags, source, visit }) => (
           <motion.div
@@ -33,12 +34,12 @@ const Projects = () => (
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
           >
-            <BlogCard>
+            <BlogCard className="BlogCard">
               <Img src={image} />
               <TitleContent>
                 <HeaderThree title>{title}</HeaderThree>
                 <Hr />
-                <CardInfo>{description}</CardInfo>
+                <CardInfo className="CardInfo">{description}</CardInfo>
 
                 <UtilityList>
                   <ExternalLinks href={source}>

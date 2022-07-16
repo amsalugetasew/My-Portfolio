@@ -13,6 +13,7 @@ import {
   ListTitle,
 } from "./TechnologiesStyles";
 import {HashLink as Link} from 'react-router-hash-link'
+import "../Mystyle.scss"
 const Technologies = () => (
   <Section id="tech">
     <Section />
@@ -21,26 +22,26 @@ const Technologies = () => (
       I've worked with a range of technologies in the web development world,
       from Design to Back-end
     </SectionText>
-    <List>
+    <List className="List">
       <ListItem>
         <DiZend size="3rem" />
-        <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
-          <ListParagraph>Figma, Adobe</ListParagraph>
+        <ListContainer className="ListContainer">
+          <ListTitle className="ListTitle">UI/UX</ListTitle>
+          <ListParagraph className="ListParagraph">Figma, Adobe</ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <DiReact size="3rem" />
         <ListContainer>
-          <ListTitle>Front-End</ListTitle>
-          <ListParagraph>React.js, Next.js, Redux</ListParagraph>
+          <ListTitle className="ListTitle">Front-End</ListTitle>
+          <ListParagraph className="ListParagraph">React.js, Next.js, Redux</ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <DiFirebase size="3rem" />
         <ListContainer>
-          <ListTitle>Back-End</ListTitle>
-          <ListParagraph>Express.js, Node.js, Firebase, MongoDB</ListParagraph>
+          <ListTitle className="ListTitle">Back-End</ListTitle>
+          <ListParagraph className="ListParagraph">Express.js, Node.js, Firebase, MongoDB</ListParagraph>
         </ListContainer>
       </ListItem>
     </List>
