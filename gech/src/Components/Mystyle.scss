@@ -63,7 +63,7 @@
   }
 
   .Section {
-    flex-direction: column;
+    display: block;
   }
 
   .SectionTitle {
@@ -82,9 +82,7 @@
     font-size: 35px;
   }
 
-  .img {
-    display: none;
-  }
+  
 
   .GridContainer {
     display: block;
@@ -287,6 +285,11 @@
   }
 }
 @media only screen and (max-width: 1024px) {
+  #img {
+    margin-left: -250px;
+    width: 200px;
+    height: 200px;
+  }
   #home{
     display: block;
     float: left;
@@ -302,6 +305,7 @@
       display: block;
       .SectionTitle{
         font-size: 35px;
+        margin-top: 250px;
       }
       .SectionTitleStack{
         font-size: 26px;

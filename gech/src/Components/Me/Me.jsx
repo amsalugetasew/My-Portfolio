@@ -23,9 +23,9 @@ const Me = (props) => (
         <Button>Learn More</Button>
       </Link>
     </LeftSection>
-    <LeftSection style={{marginLeft:"80px"}}>
+    <LeftSection >
       <SectionTitleStack>
-        <img className="img"
+        <img className="img" id="img"
         src={MyProfile} alt="" />
         </SectionTitleStack>
     </LeftSection>
