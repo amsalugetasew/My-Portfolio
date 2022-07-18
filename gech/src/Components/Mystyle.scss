@@ -87,10 +87,18 @@
   }
 
   .GridContainer {
-    display: flex;
-    flex-direction: column;
+    display: block;
     padding: 2rem;
     padding-bottom: 0;
+    margin-left: 30px;
+    .BlogCard{
+      margin-left: 150px;
+      width: 300px;
+    }
+    .ttl{
+      // margin-left: 100px;
+      font-size: 30px;
+    }
   }
 
   .BlogCard {
@@ -131,9 +139,8 @@
 
   #Listt {
     display: block;
-    width: 300px;
-    text-align: center;
-    margin-left: 30px;
+    width: auto;
+    margin-left: -30px;
   }
 
   .CarouselContainer {
@@ -159,6 +166,13 @@
     font-size: 16px;
     line-height: 28px;
     display: flex;
+  }
+  .SocialIconsContainer{
+    display: block;
+    width: auto;
+    .SocialIcons{
+      padding-right: 200px;
+    }
   }
 }
 
@@ -212,8 +226,8 @@
       margin-left: -150px;
       .BlogCard{
         .ttl{
-          font-size: 30px;
-          margin-left: -150px;
+          // font-size: 30px;
+          // margin-left: -150px;
         }
         #CardInfo{
           margin-left: -50px;
@@ -226,7 +240,7 @@
           width: 20px;
           height: 30px;
           font-size: 16px;
-          margin-left: -150px;
+          // margin-left: -100px;
           padding-left: 1px;
         }}
       }
@@ -261,11 +275,12 @@
   #SectionText{
     font-size: 20px;
   }
-  .SocialIcons{
-    width: 300px;
-    margin-left: -200px;
-    margin-top: 80px;
-  }
+  // .SocialIcons{
+  //   width: 300px;
+  //   margin-left: -200px;
+  //   margin-top: 80px;
+  //   padding-left: 50px;
+  // }
   .CarouselContainer{
     display: block;
     width: 350px;
@@ -306,10 +321,6 @@
     .GridContainer{
       margin-left: -150px;
       .BlogCard{
-        .ttl{
-          font-size: 30px;
-          margin-left: -150px;
-        }
         #CardInfo{
           margin-left: -50px;
           width: 300px;
@@ -321,7 +332,7 @@
           width: 20px;
           height: 30px;
           font-size: 16px;
-          margin-left: -150px;
+          margin-left: 50px;
           padding-left: 1px;
         }}
       }
@@ -355,11 +366,6 @@
   }
   #SectionText{
     font-size: 20px;
-  }
-  .SocialIcons{
-    width: 300px;
-    margin-left: -200px;
-    margin-top: 80px;
   }
   .CarouselContainer{
     display: block;
@@ -402,8 +408,8 @@
       margin-left: -150px;
       .BlogCard{
         .ttl{
-          font-size: 30px;
-          margin-left: -150px;
+          // font-size: 30px;
+          // margin-left: -150px;
         }
         #CardInfo{
           margin-left: -50px;
@@ -416,7 +422,7 @@
           width: 20px;
           height: 30px;
           font-size: 16px;
-          margin-left: -150px;
+          // margin-left: -10px;
           padding-left: 1px;
         }}
       }
