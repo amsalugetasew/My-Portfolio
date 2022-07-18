@@ -57,7 +57,7 @@ const Timeline = () => {
   return (
     <Section id="about">
       <SectionTitle><Link style={{textDecoration: "none"}} to="#home" smooth>About Me</Link></SectionTitle>
-      <SectionText className="SectionText">
+      <SectionText className="SectionText" id="SectionText">
         I help designers, small agencies and businesses bring their ideas to
         life. Powered by Figma, VS Code and coffee, I turn your requirements
         into CMS-ified and ecommerce-ified websites - on time and on budget.

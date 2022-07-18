@@ -35,17 +35,17 @@ const Projects = () => (
             animate={{ opacity: 1 }}
           >
             <BlogCard className="BlogCard">
-              <Img src={image} />
+              <Img src={image}  />
               <TitleContent>
-                <HeaderThree title>{title}</HeaderThree>
+                <HeaderThree title className="ttl">{title}</HeaderThree>
                 <Hr />
-                <CardInfo className="CardInfo">{description}</CardInfo>
+                <CardInfo id="CardInfo" className="CardInfo">{description}</CardInfo>
 
-                <UtilityList>
-                  <ExternalLinks href={source}>
+                <UtilityList className="vw">
+                  <ExternalLinks id="vs" href={source}>
                     <AiFillGithub />
                   </ExternalLinks>
-                  <ExternalLinks href={visit}>View Site</ExternalLinks>
+                  <ExternalLinks id="vs" href={visit}>View Site</ExternalLinks>
                 </UtilityList>
               </TitleContent>
             </BlogCard>

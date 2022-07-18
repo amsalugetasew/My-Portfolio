@@ -19,23 +19,15 @@ const Me = (props) => (
       </SectionTitle>
       <SectionTitleStack className="SectionTitleStack">React.JS Developer</SectionTitleStack>
       <SectionText className="SectionText">I turn problems into usable solutions.</SectionText>
-      <Link to="#about" smooth className="button">
+      <Link to="#about" smooth className="button" id="btn">
         <Button>Learn More</Button>
       </Link>
     </LeftSection>
     <LeftSection style={{marginLeft:"80px"}}>
-      {/* <SectionTitle>
-        Professional Statistics 
-        <br />
-      </SectionTitle> */}
       <SectionTitleStack>
         <img className="img"
         src={MyProfile} alt="" />
         </SectionTitleStack>
-      {/* <SectionText>I turn problems into usable solutions.</SectionText> */}
-      {/* <Link to="#about" smooth>
-        <Button>Learn More</Button>
-      </Link> */}
     </LeftSection>
   </Section>
 );

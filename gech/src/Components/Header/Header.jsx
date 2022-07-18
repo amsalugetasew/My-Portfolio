@@ -23,11 +23,7 @@ const Header = () => (
      <Container className='container' id='home'>
     
     <Div1>
-      <Link style={{textDecoration: "none",display: "flex",
-            color: "#f5f5f5",
-            opacity:"0.8",
-            marginLeft: "20px",
-            marginTop: "18px"}} to="/" >
+      <Link id='sty' to="/" >
           <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
       </Link>
     </Div1>

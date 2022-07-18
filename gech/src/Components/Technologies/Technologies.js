@@ -18,13 +18,13 @@ const Technologies = () => (
   <Section id="tech">
     <Section />
     <SectionTitle><Link style={{textDecoration: "none"}} to="#home" smooth> Technologies</Link></SectionTitle>
-    <SectionText>
+    <SectionText className="st">
       I've worked with a range of technologies in the web development world,
       from Design to Back-end
     </SectionText>
-    <List className="List">
+    <List className="List" id="List">
       <ListItem>
-        <DiZend size="3rem" />
+        <DiZend size="3rem" className="dz" />
         <ListContainer className="ListContainer">
           <ListTitle className="ListTitle">UI/UX</ListTitle>
           <ListParagraph className="ListParagraph">Figma, Adobe</ListParagraph>
