@@ -14,7 +14,7 @@ export const projects = [
   {
     title: "AGTC Website",
     description:
-      "This is a Colleg Website project built React, Redux, MongoDb, Material UI.",
+      "This is a College Website project built React, Redux, MongoDb, Material UI.",
       image: AGTC,
     tags: ["React", "Redux", "MongoDb", "Material Design"],
     source: "https://github.com/amsalugetasew/AGTC",
