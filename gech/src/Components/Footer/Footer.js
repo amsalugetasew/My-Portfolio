@@ -27,7 +27,7 @@ const Footer = () => {
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <Link className="LinkItem" to="mailto:amsalugetasew12@gmail.com">
+          <Link style={{color:"white"}} className="LinkItem" to="mailto:amsalugetasew12@gmail.com">
             amsalugetasew12@gmail.com
           </Link>
         </LinkColumn>
