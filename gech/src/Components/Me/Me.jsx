@@ -8,7 +8,7 @@ import {
 } from "../../styles/GlobalComponents";
 import Button from "../../styles/GlobalComponents/Button";
 import { LeftSection } from "./MeStyles";
-import MyProfile from "../../image/me.PNG"
+import MyProfile from "../../image/gech.jpg"
 import "../Mystyle.scss"
 const Me = (props) => (
   <Section row nopadding className="Section">
