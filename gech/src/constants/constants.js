@@ -1,5 +1,6 @@
 import AGTC from "../image/agtc.PNG"
 import MyPortfolio from "../image/gechweb.PNG"
+import MyEcommerce from "../image/My-ecommerce.PNG"
 export const projects = [
   {
     title: "Personal Portfolio",
@@ -19,6 +20,16 @@ export const projects = [
     tags: ["React", "Redux", "MongoDb", "Material Design"],
     source: "https://github.com/amsalugetasew/AGTC",
     visit: "https://github.com/amsalugetasew/AGTC",
+    id: 2,
+  },
+  {
+    title: "GHabesha Ecommerce Website",
+    description:
+      "This is a Ecommerce Website project built React, Redux,  Bootstrap.",
+      image: MyEcommerce,
+    tags: ["React", "Redux",  "Bootstrap"],
+    source: "https://github.com/amsalugetasew/E-commerce-web-App",
+    visit: "https://ghabesha.netlify.app/",
     id: 2,
   },
   
